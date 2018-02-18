@@ -1,19 +1,19 @@
-@font-face {
+/* @font-face {
 	font-family: 'SEGA LOGO FONT';
 	font-style: normal;
 	font-weight: normal;
-	src: url(./fonts/SEGA.woff) format('woff');
+	src: url('./fonts/SEGA.woff') format('woff');
 }
-
+*/
 @font-face {
 	font-family: 'Droid Logo';
 	font-style: normal;
 	font-weight: normal;
-	src: local('Droid Logo'), url('./fonts/droid.woff') format('woff');
+	src: url('./fonts/droid.woff') format('woff');
 }
 
 h1 {
-	font-family: Droid Logo;
+	font-family: 'Droid Logo';
 	font-weight: 200;
 	color: #0ccac4;
 }
